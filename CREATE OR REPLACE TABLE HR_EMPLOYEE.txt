@@ -1,0 +1,14 @@
+CREATE OR REPLACE TABLE HR_EMPLOYEE (
+    EMP_ID              NUMBER(18,0)        NOT NULL,
+    EMP_NAME            VARCHAR(200),
+    GENDER              VARCHAR(10),
+    DEPARTMENT          VARCHAR(100),
+    JOB_LEVEL           VARCHAR(50),
+    HIRE_DATE           DATE,
+    TERMINATION_DATE    DATE,
+    EMP_STATUS          VARCHAR(20),
+    LOCATION            VARCHAR(100),
+    SALARY              NUMBER(12,2),
+    PERFORMANCE_RATING  NUMBER(3,2),
+    MANAGER_ID          NUMBER(18,0)
+);
